@@ -1,6 +1,8 @@
 [profile.default]
 src = "src"
 out = "out"
+# viaIR = true
 libs = ["lib"]
+remappings = ["@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts", "@solmate=lib/solmate/src/"]
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
